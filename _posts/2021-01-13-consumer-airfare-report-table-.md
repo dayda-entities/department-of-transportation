@@ -1,29 +1,29 @@
 ---
-title: Consumer Airfare Report Table 1a - All U.S. Airport Pair Markets
-created: '2021-01-13T19:37:41.646243'
-modified: '2021-01-13T19:37:41.646251'
+title: >-
+  Consumer Airfare Report Table 7 - Fare Premiums for Select Cities with More
+  Than 20 Passengers per Day
+created: '2021-01-13T19:29:09.269356'
+modified: '2021-01-13T19:29:09.269365'
 state: active
 type: dataset
 tags:
   - Airfares
-  - Airport Pair Markets
   - Aviation
   - Aviation Policy
   - City Pair
   - Consumer Airfare Report
   - Fare Levels
+  - Fare Premium
   - Fares
   - Office Of Aviation Analysis
-  - Table 1a
-  - Top 1000
+  - Table 7
 groups: []
 csv_url: >-
-  https://data.transportation.gov/api/views/tfrh-tu9e/rows.csv?accessType=DOWNLOAD
+  https://data.transportation.gov/api/views/d6nc-s8v6/rows.csv?accessType=DOWNLOAD
 json_url: >-
-  https://data.transportation.gov/api/views/tfrh-tu9e/rows.json?accessType=DOWNLOAD
+  https://data.transportation.gov/api/views/d6nc-s8v6/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
-Available only on the web, provides information for airport pair markets rather than city pair markets. This table only lists airport markets where the origin or destination airport is an airport that has other commercial airports in the same city. Midway Airport (MDW) and O'Hare (ORD) are examples of this.  All records are aggregated as directionless markets.  The combination of Airport_1 and Airport_2 define the airport pair market.  All traffic traveling in both directions is added together.
-
-https://www.transportation.gov/policy/aviation-policy/competition-data-analysis/research-reports
+Provides fare premiums for airports in the top 1,000 city pairs, and demonstrates the impact of low-fare service and hub domination on fare levels.  
+All records are aggregated as directionless city pair markets.  Air traffic in each direction is combined.  https://www.transportation.gov/policy/aviation-policy/competition-data-analysis/research-reports
