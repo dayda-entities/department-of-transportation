@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Dayda</title>
+  <updated>2021-05-08T00:00:00Z</updated>
+  <link rel="self" href="http://localhost:4000/atom.xml"/>
+  <author><name>Kin Lane</name></author>
+  <id>http://localhost:4000/atom.xml</id>
+	<entry>
+    <title>Injury/Illness Summary - Operational Data</title>
+    <link href="http://apievangelist.com/2021/05/08/injuryillness-summary-operatio.html"/>
+    <updated>2021-05-08T00:00:00Z</updated>
+    <content><![CDATA[Curated FRA Safety data pertaining to Operational Injury and Illness data (Form 55)
+]]></content>
+    <id>http://apievangelist.com/2021/05/08/injuryillness-summary-operatio.html</id>
+  </entry><entry>
+    <title>Highway-Rail Grade Crossing Accident Data</title>
+    <link href="http://apievangelist.com/2021/05/08/highway-rail-grade-crossing-ac.html"/>
+    <updated>2021-05-08T00:00:00Z</updated>
+    <content><![CDATA[Curated FRA Safety data pertaining to Highway-Rail Grade Crossing Accidents (Form 57)
+]]></content>
+    <id>http://apievangelist.com/2021/05/08/highway-rail-grade-crossing-ac.html</id>
+  </entry><entry>
+    <title>Rail Equipment Accident/Incident Data</title>
+    <link href="http://apievangelist.com/2021/04/15/rail-equipment-accidentinciden.html"/>
+    <updated>2021-04-15T00:00:00Z</updated>
+    <content><![CDATA[Curated FRA Safety data pertaining to Rail Equipment Accidents (Form 54)
+]]></content>
+    <id>http://apievangelist.com/2021/04/15/rail-equipment-accidentinciden.html</id>
+  </entry><entry>
+    <title>Truck Size and Weight Enforcement Data</title>
+    <link href="http://apievangelist.com/2021/04/12/truck-size-and-weight-enforcem.html"/>
+    <updated>2021-04-12T00:00:00Z</updated>
+    <content><![CDATA[This dataset consists of truck size and weight enforcement data including number of trucks weighed, number of violations, and number of oversize/overweight permits, as reported by the States in their annual certification to FHWA.
+]]></content>
+    <id>http://apievangelist.com/2021/04/12/truck-size-and-weight-enforcem.html</id>
+  </entry><entry>
+    <title>Toll ID Elements</title>
+    <link href="http://apievangelist.com/2021/04/12/toll-id-elements.html"/>
+    <updated>2021-04-12T00:00:00Z</updated>
+    <content><![CDATA[HPMS toll ID and facility name by state.
+]]></content>
+    <id>http://apievangelist.com/2021/04/12/toll-id-elements.html</id>
+  </entry><entry>
+    <title>Docked Bikeshare Ridership By System, Year, Month, and Hour</title>
+    <link href="http://apievangelist.com/2021/03/21/docked-bikeshare-ridership-by.html"/>
+    <updated>2021-03-21T00:00:00Z</updated>
+    <content><![CDATA[Bikeshare ridership by system, year, month, and hour the trip ended at for bikeshare systems with docking stations. Data available by month starting in January 2019. Months are rearranged to include the same number of days of the week across years (see below). Data designed to show the impacts of COVID-19 on bikeshare ridership as featured at https://maps.dot.gov/BTS/dockedbikeshare-COVID/
+
+Ridership data not available for all docked bikeshare systems. Only docked bikeshare systems with ridership data shown. Some systems included in the data permit users to leave a bicycle outside of a docking station; these trips are indicated by the trip type. Trips defined as rides from point A to B. If user makes trip from B to A on same day, counted as a second trip. Trips labeled as round trips in Metro Bike Share and Indego trip files counted as 2 trips. Trips with no trip time are not counted. For trips starting and ending at a docking station or on systems where only docked trips are permitted, trips with no start station identifier and/or end station id are not counted in totals. Trips shorter than 1 minute or greater than 2 hours excluded. Days aligned to include the same days of weeks in 2019 and 2020. Days included in each month are as follows:
+
+Days included in each month are as follows:
+Jan 2019 (01/02/19 through 02/02/19); Jan 2020 (01/01/20 through 02/01/20); Jan 2021 (12/30/20 through 01/30/21)
+Feb 2019 (02/03/19 through 03/02/19); Feb 2020 (02/02/20 through 02/29/20); Feb 2021 (01/31/21 through 02/27/21)
+Mar 2019 (03/03/19 through 03/30/19); Mar 2020 (03/01/20 through 03/28/20); Mar 2021 (02/28/21 through 03/29/21)
+Apr 2019 (03/31/19 through 05/04/19); Apr 2020 (03/29/20 through 05/02/20); Apr 2021 (03/28/21 through 05/01/21)
+May 2019 (05/05/19 through 06/01/19); May 2020 (05/03/20 through 05/30/20); May 2021 (05/02/21 through 05/29/21)
+Jun 2019 (06/02/19 through 06/29/19); Jun 2020 (05/31/20 through 06/27/20); Jun 2021 (05/30/21 through 06/26/21)
+Jul 2019 (06/30/19 through 08/03/19); Jul 2020 (06/28/20 through 08/01/20); Jul 2021 (06/27/21 through 07/31/21)
+Aug 2019 (08/04/19 through 08/31/19); Aug 2020 (08/02/20 through 08/29/20); Aug 2021 (08/01/21 through 08/28/21)
+Sep 2019 (09/01/19 through 10/05/19); Sep 2020 (08/30/20 through 10/03/20); Sep 2021 (08/29/21 through 10/02/21)
+Oct 2019 (10/06/19 through 11/02/19); Oct 2020 (10/04/20 through 10/31/20); Oct 2021 (10/03/21 through 10/30/21)
+Nov 2019 (11/03/19 through 11/30/19); Nov 2020 (11/01/20 through 11/28/20); Nov 2021 (10/31/21 through 11/27/21)
+Dec 2019 (12/01/19 through 12/31/19); Dec 2020 (11/29/20 through 12/29/20); Dec 2021 (11/28/21 through 12/28/21)
+
+Trips beginning on 12/31/2019 but ending on 01/01/2020 not included in totals.
+
+Interactive map application featuring data: https://maps.dot.gov/BTS/dockedbikeshare-COVID/
+]]></content>
+    <id>http://apievangelist.com/2021/03/21/docked-bikeshare-ridership-by.html</id>
+  </entry><entry>
+    <title>HPMS Sample Mid-America 2018</title>
+    <link href="http://apievangelist.com/2021/03/16/hpms-sample-mid-america-2018.html"/>
+    <updated>2021-03-16T00:00:00Z</updated>
+    <content><![CDATA[This data represents HPMS Sample limits that correspond to the HPMS Section Data. This dataset contains expansion factors that are used to expand the attributes to State wide aggregation. More information regarding the Sample dataset is contained in the HPMS Field Manual.
+The Mid-America contains data for the following States: Illinois, Indiana, Iowa, Kansas, Michigan, Minnesota, Missouri, Nebraska, North Dakota, Oklahoma, South Dakota, Texas, and Wisconsin
+]]></content>
+    <id>http://apievangelist.com/2021/03/16/hpms-sample-mid-america-2018.html</id>
+  </entry><entry>
+    <title>Highway Performance Monitoring System (HPMS)</title>
+    <link href="http://apievangelist.com/2021/03/16/highway-performance-monitoring.html"/>
+    <updated>2021-03-16T00:00:00Z</updated>
+    <content><![CDATA[The Federal Highway Administration (FHWA) has been receiving Highway inventory, usage, condition and performance data from State Departments of Transportation (DOT) since 1978 to support the program mission of the FHWA. Specifically, HPMS consists of detailed road segment data (63 Attributes) for higher order systems. Sample attributes for collector systems and summary data for the local roads.
+New requirements for HPMS took effect in 2014 that required each State DOTs to expand their Linear Referencing Systems (LRS), a statewide geospatial representation of their road system that includes all public roads. This requirement was put in place to support highway safety.
+States DOTs submit HPMS data annually to the FHWA following a prescribed format outlined in the Highway Performance Monitoring System Field Manual.
+]]></content>
+    <id>http://apievangelist.com/2021/03/16/highway-performance-monitoring.html</id>
+  </entry><entry>
+    <title>Roadway Sections West 2018</title>
+    <link href="http://apievangelist.com/2021/03/11/roadway-sections-west-2018.html"/>
+    <updated>2021-03-11T00:00:00Z</updated>
+    <content><![CDATA[State DOT HPMS Section Attributes for Western States
+]]></content>
+    <id>http://apievangelist.com/2021/03/11/roadway-sections-west-2018.html</id>
+  </entry><entry>
+    <title>NSF Graduate Research Fellowship Program (GRFP)</title>
+    <link href="http://apievangelist.com/2021/02/19/nsf-graduate-research-fellowsh.html"/>
+    <updated>2021-02-19T00:00:00Z</updated>
+    <content><![CDATA[The National Science Foundation’s (NSF’s) Graduate Research Fellowship Program (GRFP) provides three years of support for graduate study leading to research-based masters or doctoral degrees in disciplines relevant to the mission of the Foundation. Each year, the Program names Fellowship recipients and honorable mention nominees.
+]]></content>
+    <id>http://apievangelist.com/2021/02/19/nsf-graduate-research-fellowsh.html</id>
+  </entry><entry>
+    <title>Wyoming CV Pilot Traveler Information Message Sample (Schema Version 6)</title>
+    <link href="http://apievangelist.com/2021/01/13/wyoming-cv-pilot-traveler-info.html"/>
+    <updated>2021-01-13T00:00:00Z</updated>
+    <content><![CDATA[This dataset contains a sample of the broadcast Traveler Information Messages (TIM) being generated by the Wyoming Connected Vehicle (CV) Pilot. This dataset only contains SchemaVersion 6 TIM sample data from December 18, 2018 to present. It is updated hourly and will hold up to 3 million of the most recent TIM records.
+&amp;lt;/n&amp;gt;&amp;lt;/n&amp;gt;
+The Schema Version 6 data is described further here. For sample  TIM data prior to December 18, 2018, please refer to the Schema Version 5 dataset. The full set of TIMs can be found in the ITS Sandbox.
+]]></content>
+    <id>http://apievangelist.com/2021/01/13/wyoming-cv-pilot-traveler-info.html</id>
+  </entry><entry>
+    <title>Wyoming CV Pilot Basic Safety Message One Day Sample</title>
+    <link href="http://apievangelist.com/2021/01/13/wyoming-cv-pilot-basic-safety.html"/>
+    <updated>2021-01-13T00:00:00Z</updated>
+    <content><![CDATA[This is a live running log of approximately one day’s worth of sanitized Basic Safety Messages (BSM) from the Wyoming Connected Vehicle (CV) Pilot project. All sanitized BSMs from this project can be found in the ITS Sandbox. J2735 standard BSM elements are those that begin with coreData_ and partII_. Additional contextual information specific to the Wyoming CV Pilot to help analysis is included in metadata_ columns.
+]]></content>
+    <id>http://apievangelist.com/2021/01/13/wyoming-cv-pilot-basic-safety.html</id>
+  </entry><entry>
+    <title>Work Zone Data Exchange (WZDx) Feed Registry</title>
+    <link href="http://apievangelist.com/2021/01/13/work-zone-data-exchange-wzdx-f.html"/>
+    <updated>2021-01-13T00:00:00Z</updated>
+    <content><![CDATA[This dataset contains the up-to-date metadata on Work Zone feeds that meet the Work Zone Data Exchange (WZDx) specifications and is registered with USDOT ITS DataHub.  The current work zone data from each feed can be accessed through their respective API links or through the ITS WorkZone Sandbox, which contains an archive of the data.
+]]></content>
+    <id>http://apievangelist.com/2021/01/13/work-zone-data-exchange-wzdx-f.html</id>
+  </entry><entry>
+    <title>Work Schedules and Sleep Patterns of Railroad Employees</title>
+    <link href="http://apievangelist.com/2021/01/13/work-schedules-and-sleep-patte.html"/>
+    <updated>2021-01-13T00:00:00Z</updated>
+    <content><![CDATA[The Federal Railroad Administration (FRA) sponsored a study of the work schedules and sleep patterns of railroad employees. The purpose of the study was to understand work-schedule related fatigue that affects various categories of railroad employees by documenting a group’s work/rest schedules and sleep patterns to ascertain their impact on the level of fatigue/alertness.Employees surveyed include: signalmen, maintenance of way (MOW) workers, dispatchers, and train &amp;amp; engine service workers (in both freight and passenger train service)
+]]></content>
+    <id>http://apievangelist.com/2021/01/13/work-schedules-and-sleep-patte.html</id>
+  </entry><entry>
+    <title>Weekly Traffic Volume</title>
+    <link href="http://apievangelist.com/2021/01/13/weekly-traffic-volume.html"/>
+    <updated>2021-01-13T00:00:00Z</updated>
+    <content><![CDATA[This dataset contains the estimates of the vehicle miles traveled (VMT) for interstate highways and how the total travel measured by VMT compares with travel that occurred in the same week of the previous year.
+]]></content>
+    <id>http://apievangelist.com/2021/01/13/weekly-traffic-volume.html</id>
+  </entry><entry>
+    <title>Weekly Gasoline Product Supplied</title>
+    <link href="http://apievangelist.com/2021/01/13/weekly-gasoline-product-suppli.html"/>
+    <updated>2021-01-13T00:00:00Z</updated>
+    <content><![CDATA[This dataset offers insight on weekly fluctuation of the gasoline product supply, which is an important part of any analysis of construction trends, materials and operating costs associated with highway repair and construction, and changes in traffic volume. These data come directly from the Energy Information Administration (EIA) website. The EIA publishes the average daily amount of gasoline supplied in barrels, which HPPI converts to an average number of gallons of gasoline per week.
+]]></content>
+    <id>http://apievangelist.com/2021/01/13/weekly-gasoline-product-suppli.html</id>
+  </entry><entry>
+    <title>Vehicles Entering U.S. by Country</title>
+    <link href="http://apievangelist.com/2021/01/13/vehicles-entering-us-by-countr.html"/>
+    <updated>2021-01-13T00:00:00Z</updated>
+    <content><![CDATA[Number of passenger vehicles crossing into the United States via Canada and Mexico, and number of freight trucks crossing into U.S. via Niagara Falls.
+]]></content>
+    <id>http://apievangelist.com/2021/01/13/vehicles-entering-us-by-countr.html</id>
+  </entry><entry>
+    <title>Vehicle Modifications for Persons with Disabilities - Modifier List</title>
+    <link href="http://apievangelist.com/2021/01/13/vehicle-modifications-for-pers.html"/>
+    <updated>2021-01-13T00:00:00Z</updated>
+    <content><![CDATA[Contain information that identifies, and provides contact information for, businesses modifying vehicles to enable persons with disabilities to operate the vehicle, or ride as a passenger.
+]]></content>
+    <id>http://apievangelist.com/2021/01/13/vehicle-modifications-for-pers.html</id>
+  </entry><entry>
+    <title>United States Boundary Files</title>
+    <link href="http://apievangelist.com/2021/01/13/united-states-boundary-files.html"/>
+    <updated>2021-01-13T00:00:00Z</updated>
+    <content><![CDATA[United States Census Bureau: Cartographic Boundary Files - Shapefiles
+]]></content>
+    <id>http://apievangelist.com/2021/01/13/united-states-boundary-files.html</id>
+  </entry><entry>
+    <title>Trips by Distance</title>
+    <link href="http://apievangelist.com/2021/01/13/trips-by-distance.html"/>
+    <updated>2021-01-13T00:00:00Z</updated>
+    <content><![CDATA[How many people are staying at home? How far are people traveling when they don’t stay home? Which states and counties have more people taking trips? The Bureau of Transportation Statistics (BTS) now provides answers to those questions through our new mobility statistics.
+
+The Trips by Distance data and number of people staying home and not staying home are estimated for the Bureau of Transportation Statistics by the Maryland Transportation Institute and Center for Advanced Transportation Technology Laboratory at the University of Maryland. The travel statistics are produced from an anonymized national panel of mobile device data from multiple sources. All data sources used in the creation of the metrics contain no personal information. Data analysis is conducted at the aggregate national, state, and county levels. A weighting procedure expands the sample of millions of mobile devices, so the results are representative of the entire population in a nation, state, or county. To assure confidentiality and support data quality, no data are reported for a county if it has fewer than 50 devices in the sample on any given day.
+
+Trips are defined as movements that include a stay of longer than 10 minutes at an anonymized location away from home. Home locations are imputed on a weekly basis. A movement with multiple stays of longer than 10 minutes before returning home is counted as multiple trips. Trips capture travel by all modes of transportation. including driving, rail, transit, and air.
+
+The daily travel estimates are from a mobile device data panel from merged multiple data sources that address the geographic and temporal sample variation issues often observed in a single data source. The merged data panel only includes mobile devices whose anonymized location data meet a set of data quality standards, which further ensures the overall data quality and consistency. The data quality standards consider both temporal frequency and spatial accuracy of anonymized location point observations, temporal coverage and representativeness at the device level, spatial representativeness at the sample and county level, etc. A multi-level weighting method that employs both device and trip-level weights expands the sample to the underlying population at the county and state levels, before travel statistics are computed.
+
+These data are experimental and may not meet all of our quality standards.  Experimental data products are created using new data sources or methodologies that benefit data users in the absence of other relevant products. We are seeking feedback from data users and stakeholders on the quality and usefulness of these new products. Experimental data products that meet our quality standards and demonstrate sufficient user demand may enter regular production if resources permit.
+]]></content>
+    <id>http://apievangelist.com/2021/01/13/trips-by-distance.html</id>
+  </entry><entry>
+    <title>Transportation Satellite Accounts Table</title>
+    <link href="http://apievangelist.com/2021/01/13/transportation-satellite-accou.html"/>
+    <updated>2021-01-13T00:00:00Z</updated>
+    <content><![CDATA[The Transportation Satellite Accounts (TSAs) provide a means for measuring the contribution of transportation services to the national economy. Prior to the TSAs, the magnitude of transportation services had long been underestimated, as most national measures counted only the value of for-hire services. Measurement of services provided only by for-hire firms misses the sizable contribution of transportation services that take place within nontransportation industries, termed as in-house transportation.
+
+To more accurately measure transportation services, the Bureau of Transportation Statistics (BTS) of the U.S. Department of Transportation and the Bureau of Economic Analysis (BEA) of the U.S. Department of Commerce, jointly developed the Transportation Satellite Accounts (TSAs). The TSAs, as a supplement to the U.S. Input-Output (I-O) Accounts, measure the contribution of both for-hire and in-house transportation. The TSAs include all seven of the for-hire transportation industries reported in the U.S. I-O accounts and four in-house transportation modes.
+]]></content>
+    <id>http://apievangelist.com/2021/01/13/transportation-satellite-accou.html</id>
+  </entry><entry>
+    <title>Transportation Economic Trends (TET) data</title>
+    <link href="http://apievangelist.com/2021/01/13/transportation-economic-trends.html"/>
+    <updated>2021-01-13T00:00:00Z</updated>
+    <content><![CDATA[Data used in the Bureau of Transportation Statistics’ new interactive version of Transportation Economic Trends (TET). TET highlights transportation’s role in the economy and explores changes (trends) over time through a series of interactive charts. TET also explains related concepts and data sources for a general audience.
+
+Interactive visualizations available at: https://data.transportation.gov/stories/s/28tb-cpjy
+]]></content>
+    <id>http://apievangelist.com/2021/01/13/transportation-economic-trends.html</id>
+  </entry><entry>
+    <title>Transit System Time Series</title>
+    <link href="http://apievangelist.com/2021/01/13/transit-system-time-series.html"/>
+    <updated>2021-01-13T00:00:00Z</updated>
+    <content><![CDATA[Data set containing broad modal and financial data for all agencies reporting to the NTD for report years 2014 to the most recently published data within the Federal Transit Administration’s NTD Data website.
+]]></content>
+    <id>http://apievangelist.com/2021/01/13/transit-system-time-series.html</id>
+  </entry><entry>
+    <title>Texas DOT (TxDOT) Work Zone Data</title>
+    <link href="http://apievangelist.com/2021/01/13/texas-dot-txdot-work-zone-data.html"/>
+    <updated>2021-01-13T00:00:00Z</updated>
+    <content><![CDATA[This dataset provides lane closure occurrences within the Texas Department of Transportation (TxDOT) highway system in a tabular format.
+
+A continuously updating archive of the TxDOT WZDx feed data can be found at ITS WorkZone Raw Data Sandbox and the ITS WorkZone Semi-Processed Data Sandbox.  The live feed is currently compliant with the Work Zone Data Exchange (WZDx) Specification version 2.0.
+]]></content>
+    <id>http://apievangelist.com/2021/01/13/texas-dot-txdot-work-zone-data.html</id>
+  </entry><entry>
+    <title>Test Data of Proof-of-Concept Vehicle Platooning Based on Cooperative Adaptive Cruise Control (CACC)</title>
+    <link href="http://apievangelist.com/2021/01/13/test-data-of-proof-of-concept.html"/>
+    <updated>2021-01-13T00:00:00Z</updated>
+    <content><![CDATA[The data represent the performance of a proof-of-concept vehicle platooning based on the Cooperative Adaptive Cruise Control (CACC) application. The Federal Highway Administration’s Turner Fairbank Highway Research Center (TFHRC), in conjunction with the Volpe National Transportation Systems Center,  tested and evaluated this prototype system in 2016. Researchers in the Saxton Transportation Operations Laboratory at TFHRC designed and built the Cooperative Automated Research Mobility Applications (CARMA) platform version 1 that enables the implementation of the proof-of-concept CACC-based platooning in passenger vehicles equipped with production adaptive cruise control, and vehicle-to-vehicle communications using dedicated short-range communications (DSRC). The data characterize the state-of-the-art capability of the CACC application based on engineering tests that were performed on closed tracks by professional drivers and using prescribed test procedures. The test data are separated into sets that correspond to test date and time, and test run number. The data include performance parameters that were collected from the CACC application and data acquisition systems, including vehicle controller area network data, CARMA’s MicroAutoBox, DSRC radios, and an independent measurement system. The tests were conducted at US Army’s Aberdeen Test Center located at Aberdeen Proving Grounds, MD. Further documentation can be found here: https://rosap.ntl.bts.gov/view/dot/1038.
+]]></content>
+    <id>http://apievangelist.com/2021/01/13/test-data-of-proof-of-concept.html</id>
+  </entry>
+</feed>
