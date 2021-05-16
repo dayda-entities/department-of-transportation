@@ -1,29 +1,29 @@
 ---
-title: >-
-  Consumer Airfare Report Table 6 - Contiguous State City-Pair Markets That
-  Average At Least 10 Passengers Per Day
-created: '2021-01-13T19:40:34.882694'
-modified: '2021-01-13T19:40:34.882701'
+title: Consumer Airfare Report Table 1a - All U.S. Airport Pair Markets
+created: '2021-01-13T19:37:41.646243'
+modified: '2021-01-13T19:37:41.646251'
 state: active
 type: dataset
 tags:
   - Airfares
+  - Airport Pair Markets
   - Aviation
   - Aviation Policy
   - City Pair
-  - City Pair Markets
   - Consumer Airfare Report
   - Fare Levels
   - Fares
   - Office Of Aviation Analysis
-  - Table 6
+  - Table 1a
+  - Top 1000
 groups: []
 csv_url: >-
-  https://data.transportation.gov/api/views/yj5y-b2ir/rows.csv?accessType=DOWNLOAD
+  https://data.transportation.gov/api/views/tfrh-tu9e/rows.csv?accessType=DOWNLOAD
 json_url: >-
-  https://data.transportation.gov/api/views/yj5y-b2ir/rows.json?accessType=DOWNLOAD
+  https://data.transportation.gov/api/views/tfrh-tu9e/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
-Available on the internet only, this table is an expanded version of Table 1 that lists all city-pair markets in the contiguous United States that average at least 10 passengers each day.  All records are aggregated as directionless city pair markets.  All traffic traveling in both directions is added together.
+Available only on the web, provides information for airport pair markets rather than city pair markets. This table only lists airport markets where the origin or destination airport is an airport that has other commercial airports in the same city. Midway Airport (MDW) and O'Hare (ORD) are examples of this.  All records are aggregated as directionless markets.  The combination of Airport_1 and Airport_2 define the airport pair market.  All traffic traveling in both directions is added together.
+
 https://www.transportation.gov/policy/aviation-policy/competition-data-analysis/research-reports
