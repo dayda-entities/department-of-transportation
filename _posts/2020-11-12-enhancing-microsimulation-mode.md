@@ -1,28 +1,29 @@
 ---
 title: >-
   Enhancing Microsimulation Models for Improved Work Zone Planning Car-Following
-  Data from Western Massachusetts (Instances)
-created: '2020-11-12T12:38:36.644110'
-modified: '2021-04-21T19:51:24.001983'
+  Data from Northern Virginia (Runs)
+created: '2020-11-12T12:33:59.118371'
+modified: '2021-04-21T19:48:41.733516'
 state: active
 type: dataset
 tags:
   - Car Following
   - Freeway
   - Instrumented Research Vehicle Irv
+  - Living Laboratory Ll
+  - Mclean Virginia
   - Microscopic Modeling
   - Microsimulation
-  - Springfield Massachusetts
   - Traffic Simulation
   - Work Zone
 groups: []
 csv_url: >-
-  https://data.transportation.gov/api/views/74ug-57tr/rows.csv?accessType=DOWNLOAD
+  https://data.transportation.gov/api/views/285w-yjf5/rows.csv?accessType=DOWNLOAD
 json_url: >-
-  https://data.transportation.gov/api/views/74ug-57tr/rows.json?accessType=DOWNLOAD
+  https://data.transportation.gov/api/views/285w-yjf5/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
-The data describe freeway car-following behavior (such as velocity, acceleration, and relative position) for the car-following instances observed during 6 data collection runs, collected using an Instrumented Research Vehicle (IRV) along freeways and arterials in western Massachusetts in the summer of 2016 to better understand work zone driver behaviors. The USDOT Volpe National Transportation Systems Center (Volpe Center) identified, isolated, and classified individual car following instances from within the raw datasets (classification parameters included roadway type, level of congestion, and speed limit), then processed, refined, and cleaned the dataset.
+The data describe freeway car-following behavior (such as velocity, acceleration, and relative position) for the car-following instances observed during 59 data collection runs, performed through the Federal Highway Administration (FHWA) Turner Fairbank Highway Research Center’s (TFHRC) Living Laboratory (LL). Data were collected using an Instrumented Research Vehicle (IRV) along freeways in northern Virginia to better understand work zone driver behaviors. The USDOT Volpe National Transportation Systems Center (Volpe Center) identified, isolated, and classified individual car following instances from within the raw datasets (classification parameters included roadway type, level of congestion, and speed limit), then processed, refined, and cleaned the dataset. 
 
-This table contains the car-following instances recorded by Volpe staff. See also the runs table (https://datahub.transportation.gov/Automobiles/Enhancing-Microsimulation-Models-for-Improved-Work/b3k6-qwyh) and radar table (https://datahub.transportation.gov/Automobiles/Enhancing-Microsimulation-Models-for-Improved-Work/4qbx-egtn).
+This table contains metadata about each data collection run. See also the instances table (https://datahub.transportation.gov/Automobiles/Enhancing-Microsimulation-Models-for-Improved-Work/k74u-yqu6) and radar table (https://datahub.transportation.gov/Automobiles/Enhancing-Microsimulation-Models-for-Improved-Work/uvrt-varj).
