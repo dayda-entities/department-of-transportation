@@ -1,7 +1,7 @@
 ---
 title: Weekly Gasoline Product Supplied
-created: '2020-11-12T12:57:41.088436'
-modified: '2021-04-21T20:01:18.831278'
+created: '2020-11-12T13:03:19.306671'
+modified: '2021-05-14T15:05:43.793231'
 state: active
 type: dataset
 tags:
@@ -11,9 +11,9 @@ tags:
   - Weekly
 groups: []
 csv_url: >-
-  https://data.transportation.gov/api/views/t4xw-qp9u/rows.csv?accessType=DOWNLOAD
+  https://data.transportation.gov/api/views/yuth-jt4g/rows.csv?accessType=DOWNLOAD
 json_url: >-
-  https://data.transportation.gov/api/views/t4xw-qp9u/rows.json?accessType=DOWNLOAD
+  https://data.transportation.gov/api/views/yuth-jt4g/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
