@@ -1,9 +1,7 @@
 ---
-title: >-
-  Consumer Airfare Report Table 5 - Detailed Fare Information For Highest and
-  Lowest Fare Markets Under 750 Miles
-created: '2021-01-13T19:28:11.322803'
-modified: '2021-01-13T19:28:11.322810'
+title: 'Consumer Airfare Report Table 2 - Top 1,000 City-Pair Markets'
+created: '2021-01-13T19:39:27.582580'
+modified: '2021-01-13T19:39:27.582591'
 state: active
 type: dataset
 tags:
@@ -11,20 +9,18 @@ tags:
   - Aviation
   - Aviation Policy
   - City Pair
+  - City Summary
   - Consumer Airfare Report
   - Fare Levels
   - Fares
-  - Highest
-  - Lowest
-  - Markets Under 750 Miles
   - Office Of Aviation Analysis
-  - Table 5
+  - Table 2
 groups: []
 csv_url: >-
-  https://data.transportation.gov/api/views/bkh6-tj42/rows.csv?accessType=DOWNLOAD
+  https://data.transportation.gov/api/views/wqw2-rjgd/rows.csv?accessType=DOWNLOAD
 json_url: >-
-  https://data.transportation.gov/api/views/bkh6-tj42/rows.json?accessType=DOWNLOAD
+  https://data.transportation.gov/api/views/wqw2-rjgd/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
-Provides detailed fare information for highest and lowest fare markets under 750 miles. For a more complete explanation, please read the introductory information at the beginning of Table 5 itself in the report (https://www.transportation.gov/office-policy/aviation-policy/domestic-airline-consumer-airfare-report-pdf).
+Data summarized by city, includes the number of city-pair markets in the top 1,000 in either comparison period that involve each city, the number of passengers traveling to and from each city, the average fare, average fare per mile (yield), and average distance traveled.  All records are aggregated as directionless city pair markets.  All traffic traveling in both directions is added together.  https://www.transportation.gov/policy/aviation-policy/competition-data-analysis/research-reports
