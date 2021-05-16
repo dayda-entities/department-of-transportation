@@ -1,23 +1,22 @@
 ---
-title: 'Docked Bikeshare Ridership by System, Year, and Month'
-created: '2020-11-12T12:44:18.835312'
-modified: '2021-04-17T00:33:42.419662'
+title: 'Docked Bikeshare Ridership by System, Year, Month, and Day'
+created: '2020-11-12T12:47:22.364776'
+modified: '2021-04-17T00:35:17.270529'
 state: active
 type: dataset
 tags:
   - Bikeshare
-  - Transportation
 groups: []
 csv_url: >-
-  https://data.transportation.gov/api/views/cvai-skrf/rows.csv?accessType=DOWNLOAD
+  https://data.transportation.gov/api/views/g3h6-334u/rows.csv?accessType=DOWNLOAD
 json_url: >-
-  https://data.transportation.gov/api/views/cvai-skrf/rows.json?accessType=DOWNLOAD
+  https://data.transportation.gov/api/views/g3h6-334u/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
-Bikeshare ridership by system, year, and month for bikeshare systems with docking stations.  Data available by month starting in January 2019. Months are rearranged to include the same number of days of the week across years (see below). Data designed to show the impacts of COVID-19 on bikeshare ridership as featured at https://maps.dot.gov/BTS/dockedbikeshare-COVID/
+Bikeshare ridership by system, year, month, and day for bikeshare systems with docking stations. Data available by month starting in January 2019. Months are rearranged to include the same number of days of the week across years (see below). Data designed to show the impacts of COVID-19 on bikeshare ridership as featured at https://maps.dot.gov/BTS/dockedbikeshare-COVID/
 
-Ridership data not available for all docked bikeshare systems. Only docked bikeshare systems with ridership data shown. Some systems included in the data permit users to leave a bicycle outside of a docking station; these trips are indicated by the trip type. Trips defined as rides from point A to B. If user makes trip from B to A on same day, counted as a second trip. Trips labeled as round trips in Metro Bike Share and Indego trip files counted as 2 trips. Trips with no trip time are not counted. For trips starting and ending at a docking station or on systems where only docked trips are permitted, trips with no start station identifier and/or end station id are not counted in totals. Trips shorter than 1 minute or greater than 2 hours excluded. Days aligned to include the same days of weeks in 2019 and 2020. Days included in each month are as follows: 
+Ridership data not available for all docked bikeshare systems. Only docked bikeshare systems with ridership data shown. Some systems included in the data permit users to leave a bicycle outside of a docking station; these trips are not counted. Trips defined as rides from point A to B. If user makes trip from B to A on same day, counted as a second trip. Trips labeled as round trips in Metro Bike Share and Indego trip files counted as 2 trips. Trips with no trip time are not counted. Trips with no start station identifier and/or end station id are not counted in totals. Trips shorter than 1 minute or greater than 2 hours excluded. Days aligned to include the same days of weeks in 2019 and 2020. Days included in each month are as follows:
 
 Days included in each month are as follows:
 Jan 2019 (01/02/19 through 02/02/19); Jan 2020 (01/01/20 through 02/01/20); Jan 2021 (12/30/20 through 01/30/21)
