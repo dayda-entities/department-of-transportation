@@ -1,7 +1,9 @@
 ---
-title: 'Consumer Airfare Report Table 2 - Top 1,000 City-Pair Markets'
-created: '2021-01-13T19:39:27.582580'
-modified: '2021-01-13T19:39:27.582591'
+title: >-
+  Consumer Airfare Report Table 6 - Contiguous State City-Pair Markets That
+  Average At Least 10 Passengers Per Day
+created: '2021-01-13T19:40:34.882694'
+modified: '2021-01-13T19:40:34.882701'
 state: active
 type: dataset
 tags:
@@ -9,18 +11,19 @@ tags:
   - Aviation
   - Aviation Policy
   - City Pair
-  - City Summary
+  - City Pair Markets
   - Consumer Airfare Report
   - Fare Levels
   - Fares
   - Office Of Aviation Analysis
-  - Table 2
+  - Table 6
 groups: []
 csv_url: >-
-  https://data.transportation.gov/api/views/wqw2-rjgd/rows.csv?accessType=DOWNLOAD
+  https://data.transportation.gov/api/views/yj5y-b2ir/rows.csv?accessType=DOWNLOAD
 json_url: >-
-  https://data.transportation.gov/api/views/wqw2-rjgd/rows.json?accessType=DOWNLOAD
+  https://data.transportation.gov/api/views/yj5y-b2ir/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
-Data summarized by city, includes the number of city-pair markets in the top 1,000 in either comparison period that involve each city, the number of passengers traveling to and from each city, the average fare, average fare per mile (yield), and average distance traveled.  All records are aggregated as directionless city pair markets.  All traffic traveling in both directions is added together.  https://www.transportation.gov/policy/aviation-policy/competition-data-analysis/research-reports
+Available on the internet only, this table is an expanded version of Table 1 that lists all city-pair markets in the contiguous United States that average at least 10 passengers each day.  All records are aggregated as directionless city pair markets.  All traffic traveling in both directions is added together.
+https://www.transportation.gov/policy/aviation-policy/competition-data-analysis/research-reports
