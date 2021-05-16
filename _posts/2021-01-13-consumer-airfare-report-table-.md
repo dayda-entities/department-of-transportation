@@ -1,9 +1,9 @@
 ---
 title: >-
-  Consumer Airfare Report Table 7 - Fare Premiums for Select Cities with More
-  Than 20 Passengers per Day
-created: '2021-01-13T19:29:09.269356'
-modified: '2021-01-13T19:29:09.269365'
+  Consumer Airfare Report Table 5 - Detailed Fare Information For Highest and
+  Lowest Fare Markets Under 750 Miles
+created: '2021-01-13T19:28:11.322803'
+modified: '2021-01-13T19:28:11.322810'
 state: active
 type: dataset
 tags:
@@ -13,17 +13,18 @@ tags:
   - City Pair
   - Consumer Airfare Report
   - Fare Levels
-  - Fare Premium
   - Fares
+  - Highest
+  - Lowest
+  - Markets Under 750 Miles
   - Office Of Aviation Analysis
-  - Table 7
+  - Table 5
 groups: []
 csv_url: >-
-  https://data.transportation.gov/api/views/d6nc-s8v6/rows.csv?accessType=DOWNLOAD
+  https://data.transportation.gov/api/views/bkh6-tj42/rows.csv?accessType=DOWNLOAD
 json_url: >-
-  https://data.transportation.gov/api/views/d6nc-s8v6/rows.json?accessType=DOWNLOAD
+  https://data.transportation.gov/api/views/bkh6-tj42/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
-Provides fare premiums for airports in the top 1,000 city pairs, and demonstrates the impact of low-fare service and hub domination on fare levels.  
-All records are aggregated as directionless city pair markets.  Air traffic in each direction is combined.  https://www.transportation.gov/policy/aviation-policy/competition-data-analysis/research-reports
+Provides detailed fare information for highest and lowest fare markets under 750 miles. For a more complete explanation, please read the introductory information at the beginning of Table 5 itself in the report (https://www.transportation.gov/office-policy/aviation-policy/domestic-airline-consumer-airfare-report-pdf).
