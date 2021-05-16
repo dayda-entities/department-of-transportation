@@ -3,7 +3,7 @@ title: >-
   Massachusetts Department of Transportation (MassDOT) Work Zone Data Exchange
   (WZDx) v2.0 Feed Sample
 created: '2020-11-12T13:02:13.585500'
-modified: '2021-04-21T20:03:40.559861'
+modified: '2021-05-12T20:10:53.037358'
 state: active
 type: dataset
 tags:
