@@ -1,11 +1,11 @@
 ---
-title: 2016 National Census of Ferry Operators (NCFO)
-created: '2021-01-13T19:24:12.583933'
-modified: '2021-01-13T19:24:12.583940'
+title: 2016 National Census of Ferry Operators (Revised 03/18)
+created: '2021-01-13T19:39:09.848461'
+modified: '2021-01-13T19:39:09.848471'
 state: active
 type: dataset
 tags:
-  - Ferry
+  - Ferry Operators
   - Freight
   - Maritime
   - Passenger
@@ -15,10 +15,10 @@ tags:
   - Vessels
 groups: []
 csv_url: >-
-  https://data.transportation.gov/api/views/5kxy-j6hw/rows.csv?accessType=DOWNLOAD
+  https://data.transportation.gov/api/views/w6v2-vk5z/rows.csv?accessType=DOWNLOAD
 json_url: >-
-  https://data.transportation.gov/api/views/5kxy-j6hw/rows.json?accessType=DOWNLOAD
+  https://data.transportation.gov/api/views/w6v2-vk5z/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
-The 2016 NCFO dataset is comprised of the responses of all operators who completed the 2016 NCFO.  The dataset is made up of ferry operator, vessel, terminal and segment data for the 2015 calendar year.
+The 2016 NCFO dataset is comprised of the responses of all operators who completed the 2016 Census, reporting 2015 calendar year ferry operations. The NCFO Flat File includes all five data files: ferry operator, vessel, terminal, segment, and operator segment data files in a single dataset.
